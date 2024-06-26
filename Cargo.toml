@@ -1,0 +1,11 @@
+[package]
+name = "icelake_track_writer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+opendal = {version = "0.47.1", features = ["services-fs"]}
+tokio = {version = "1", features = ["full"]}
+anyhow = "*"
+futures = "*"
+icelake = {git = "https://github.com/icelake-io/icelake"}
